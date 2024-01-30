@@ -1,5 +1,42 @@
+/* ESTILO GERAL */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.interface{
+    max-width: 1240px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+.header{
+    padding: 40px 2%;/*(em cima e embaixo/direita e esquerda), respectivamente*/
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.titulo{
+    margin: 5px 0;
+}
+.titulo a{
+    text-align: center;
+    display: block;
+    font-size: xx-large;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+.subtitulo label{
+
+    text-align: center;
+    display: block;
+    font-family: 'Lexend Giga', sans-serif;
+    color: rgb(139, 139, 139);
 }
