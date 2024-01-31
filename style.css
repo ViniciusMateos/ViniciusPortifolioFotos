@@ -107,6 +107,10 @@
         padding: 0 4%;
     }
 
+    .header nav a{
+        font-size: small;
+    }
+
     .titulo {
         text-align: center;
         display: block;
