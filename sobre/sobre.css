@@ -1,0 +1,38 @@
+/* ESTILO DO CABEÇALHO */
+
+.header nav a:hover{
+    color: black;
+    transform: scale(1.05);
+    transition: 0.3s ;
+}
+
+.titulo label{
+    color: black;
+}
+
+.behance img{
+    height: 10px;
+    width: auto;
+    color: black;
+}
+
+
+/* PÁGINA SOBRE */
+
+.flex .imgsobre{
+    width: auto;
+    height: 450px;
+    
+    
+}
+
+.paginasobre .interface{
+    padding: 40px 2%;
+}
+
+.interface .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}

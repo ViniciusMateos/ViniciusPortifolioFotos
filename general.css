@@ -1,0 +1,64 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.interface{
+    padding: 0 2%;
+    margin: 0 auto;
+}
+/* ESTILO DO CABEÇALHO */
+
+.header{
+    padding: 20px 0;/*(em cima e embaixo/direita e esquerda), respectivamente*/
+}
+
+.header .titulo{
+    cursor: pointer;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header nav a{
+    display: flex;
+    color: rgb(151, 151, 151);
+    justify-content: center;
+    align-items: center;
+}
+
+.header nav ul{
+    list-style: none;
+}
+
+.header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    margin: 5px 0;
+}
+
+.titulo {
+    text-align: center;
+    display: block;
+    font-size: xx-large;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+.behance img{
+    height: 10px;
+    width: auto;
+}

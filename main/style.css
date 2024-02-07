@@ -1,33 +1,4 @@
-/* ESTILO GERAL */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-.interface{
-    padding: 0 2%;
-    margin: 0 auto;
-}
-
 /* ESTILO DO CABEÇALHO */
-
-.header{
-    padding: 40px 0;/*(em cima e embaixo/direita e esquerda), respectivamente*/
-}
-
-.header a{
-    color: white;
-    text-decoration: none;
-}
-
-.header nav a{
-    display: flex;
-    color: rgb(151, 151, 151);
-    justify-content: center;
-    align-items: center;
-}
 
 .header nav a:hover{
     color: white;
@@ -71,10 +42,15 @@
     height: 100vh;
     width: auto;
     background-size: cover;
-    background-image: url(images/kyan3.JPG);
+    background-image: url(/images/kyan3.JPG);
     background-position: center;
 }
 
+.behance img{
+    height: 10px;
+    width: auto;
+    color: white;
+}
 
 
 
@@ -96,9 +72,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
-
 
 
 @media(max-width:768px){
