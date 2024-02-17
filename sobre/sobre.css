@@ -27,7 +27,7 @@
 }
 
 .paginasobre .interface{
-    padding: 40px 2%;
+    padding: 40px 10%;
 }
 
 .interface .flex{
@@ -39,5 +39,6 @@
 
 .paginasobre .texto p{
     margin: 10px 0;
+    font-size: 15px;
 }
     
