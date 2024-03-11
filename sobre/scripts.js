@@ -1,16 +1,35 @@
 let btnMenu =  document.getElementById('btn-abrir-menu')
 let menu = document.getElementById('menu-mobile')
 let overlay = document.getElementById('overlay-menu')
+let btnFechar = document.getElementById('btn-fechar')
+
+let cbPortifolio = document.getElementById('cbPortifolio')
+let portifolioItens1 = document.getElementById('portifolio-itens1')
+let portifolioItens2 = document.getElementById('portifolio-itens2')
+let portifolioItens3 = document.getElementById('portifolio-itens3')
 
 
 btnMenu.addEventListener('click', ()=>{
   menu.classList.add('abrir-menu')
 })
 
-menu.addEventListener('click', ()=>{
+cbPortifolio.addEventListener('click', ()=>{
+  portifolioItens1.classList.toggle('abrir-portifolio-itens1')
+})
+
+cbPortifolio.addEventListener('click', ()=>{
+  portifolioItens2.classList.toggle('abrir-portifolio-itens2')
+})
+
+cbPortifolio.addEventListener('click', ()=>{
+  portifolioItens3.classList.toggle('abrir-portifolio-itens3')
+})
+
+
+overlay.addEventListener('click', ()=>{
   menu.classList.remove('abrir-menu')
 })
 
-overlay.addEventListener('click', ()=>{
+btnFechar.addEventListener('click', ()=>{
   menu.classList.remove('abrir-menu')
 })

@@ -25,7 +25,7 @@
     text-decoration: none;
 }
 
-.header .menu ul li a{
+.header .menu .header-text{
     display: flex;
     color: rgb(151, 151, 151);
     justify-content: center;
@@ -55,12 +55,50 @@
     font-family: 'Lexend Giga', sans-serif;
 }
 
+
 .behance img{
     height: 10px;
     width: auto;
     position: fixed;
 }
 
+.menu ul li i{
+    padding: 0px 5px;
+}
+
+.menu-mobile ul li i{
+    padding: 0px 5px;
+}
+
+.combo-box{
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+.combo-box-portifolio:hover .combo-box{
+    display: block;
+}
+
+.combo-box-portifolio .combo-box a{
+    color: black;
+}
+
+.combo-box a{
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+.combo-box a:hover{
+    background-color: rgb(212, 212, 212);
+    color: black;
+}
+
+.combo-box-portifolio{
+    margin: 0px;
+    padding: 0px;
+}
 
 @media screen and (max-width: 1020px){
     .menu, .behance{
@@ -156,4 +194,32 @@
 .menu-mobile .behance-mobile a i{ 
     color: black;
     font-size: 50px;
+}
+
+/* ESTILO PORTIFOLIO ITENS */
+
+.menu-mobile nav ul li .portifolio-itens1{
+    color: grey;
+    font-size: 15px;
+    display: none;
+}
+.menu-mobile nav ul li .portifolio-itens2{
+    color: grey;
+    font-size: 15px;
+    display: none;
+}
+.menu-mobile nav ul li .portifolio-itens3{
+    color: grey;
+    font-size: 15px;
+    display: none;
+}
+
+.menu-mobile nav ul li .portifolio-itens1.abrir-portifolio-itens1{
+    display: block;
+}
+.menu-mobile nav ul li .portifolio-itens2.abrir-portifolio-itens2{
+    display: block;
+}
+.menu-mobile nav ul li .portifolio-itens3.abrir-portifolio-itens3{
+    display: block;
 }
