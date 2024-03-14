@@ -3,6 +3,8 @@ $(document).ready(function() {
     $('.portifolio').magnificPopup({type:'image'});
   });
 
+
+  
 // MENU MOBILE
 
 // "let" para declarar uma variável
