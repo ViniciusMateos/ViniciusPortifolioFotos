@@ -31,7 +31,7 @@
     font-size: 50px;
 }
 
-.formulario h1,p{
+.formulario h1,.formulario p{
     text-align: center;
 }
 
@@ -84,5 +84,6 @@ form input[type=submit]{
 
 form input[type=submit]:hover{
     background-color: rgb(177, 177, 177);
+    color: white;
     transform: scale(1.05);
 }
