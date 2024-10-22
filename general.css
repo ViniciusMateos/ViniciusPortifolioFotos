@@ -100,7 +100,7 @@
     padding: 0px;
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1076px){
     .menu, .behance{
         display: none;
     }
@@ -112,6 +112,8 @@
     .titulo{
         font-size: x-large;
     }
+
+
 }
 
 @media screen and (max-width: 560px){
@@ -121,7 +123,7 @@
     }
 }
 
-@media screen and (min-width: 1020px){
+@media screen and (min-width: 1077px){
     .btn-abrir-menu{
         display: none;
     }
@@ -214,6 +216,12 @@
     display: none;
 }
 
+.menu-mobile nav ul li .portifolio-itens4{
+    color: grey;
+    font-size: 15px;
+    display: none;
+}
+
 .menu-mobile nav ul li .portifolio-itens1.abrir-portifolio-itens1{
     display: block;
 }
@@ -221,5 +229,9 @@
     display: block;
 }
 .menu-mobile nav ul li .portifolio-itens3.abrir-portifolio-itens3{
+    display: block;
+}
+
+.menu-mobile nav ul li .portifolio-itens4.abrir-portifolio-itens4{
     display: block;
 }
